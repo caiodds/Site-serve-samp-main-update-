@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Avaliação</title>
+    <link rel="stylesheet" href="avalicao.css">
+</head>
+<body>
+    <div class="container">
+        <button type="button" onclick="window.history.back()">Voltar</button>
+        
+        <h1>Painel de Avaliação</h1>
+        
+        <section class="identificacao">
+            <label for="nome-avaliado">Nome:</label>
+            <input type="text" id="nome-avaliado" name="nome-avaliado" required>
+            
+            <label for="email-avaliado">Email:</label>
+            <input type="email" id="email-avaliado" name="email-avaliado" required>
+        </section>
+        
+        <section class="avaliacao">
+            <label for="sua-avaliacao">Sua Avaliação:</label>
+            <textarea id="sua-avaliacao" name="sua-avaliacao" rows="8" required></textarea>
+        </section>
+        
+        <button type="submit">Enviar Avaliação</button>
+    </div>
+</body>
+</html>
